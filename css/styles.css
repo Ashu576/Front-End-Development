@@ -1,0 +1,188 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color:#fffbdf;
+  padding:5% 3% 5% 0;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p{
+  color: grey;
+}
+
+#title{
+  background-color: #f67280;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  color: #fffbdf;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Montserrat';
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.iphone6{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#chat-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color:rgb(223, 81, 95);
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+  z-index: 9999;
+}
+
+#chat-icon:hover {
+  transform: scale(1.1);
+  background-color:rgb(250, 52, 72);
+}
+
+#features{
+padding: 3% 15%;
+background-color: #fff;
+position: relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon-pic{
+  color: #f67280;
+  padding-bottom: 20px;
+}
+
+.icon-pic:hover{
+  color: #fa4252;
+}
+
+#testimonials{
+text-align: center;
+background-color:#f67280;
+color: #fffbdf;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #f67280;
+  margin:0;
+  text-align: center;
+}
+
+.press-img{
+  width: 10%;
+  margin: 20px 20px 40px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+#pricing{
+  padding: 60px 30px 40px 30px;
+  text-align: center;
+}
+
+.pricing-row{
+  padding: 3% 2%;
+}
+
+#cta{
+  background-color: #f67280;
+  color: #fff;
+  text-align: center;
+  height: 300px;
+  padding: 50px 0 50px;
+}
+
+.bottom{
+font-family: "Montserrat";
+font-size: 2.5rem;
+line-height: 1.5;
+}
+
+.social-Contacts{
+  font-size: 20px;
+  margin: 30px 20px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.social-Contacts:hover {
+  transform: scale(1.7);
+  background-color: #fffbdf;
+}
+
+#footer{
+  text-align: center;
+  height: 100px;
+  margin: 50px 50px;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .iphone6{
+    position: static;
+    transform: rotate(0);
+    padding-top: 40px;
+  }
+}
+
